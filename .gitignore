@@ -1,0 +1,55 @@
+# ==========================================
+# Maven / Compilación
+# ==========================================
+target/
+*.class
+*.war
+*.ear
+*.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ==========================================
+# NetBeans IDE
+# ==========================================
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+nbbuild/
+dist/
+nbdist/
+.nb-cache/
+
+# Conservar nb-configuration.xml (esencial para hints de Payara)
+!nb-configuration.xml
+
+# ==========================================
+# VS Code / Eclipse / IntelliJ IDEA
+# ==========================================
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# ==========================================
+# Servidores Locales y Logs (Payara / GlassFish)
+# ==========================================
+*.log
+payara*/
+glassfish*/
+domain1/
+
+# ==========================================
+# Archivos de Sistema Operativo
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+.directory
