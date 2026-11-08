@@ -17,7 +17,6 @@ import java.util.List;
  * Gestionado como EJB sin estado (@Stateless) en Payara Server Community 7.x.
  * Delega las operaciones a los módulos de lógica correspondientes.
  */
-@Stateless
 @WebService(serviceName = "PacienteWS")
 public class PacienteWS {
 
